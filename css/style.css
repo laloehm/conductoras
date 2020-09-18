@@ -31,10 +31,15 @@ h2.title {
     font-size: 1.3rem;
 }
 
+body {
+    background: #4e0070;
+}
+
 .wrap {
     max-width: 600px;
     margin: 0 auto;
     overflow-x: hidden;
+    background: #ffffff;
 }
 
 /* About */
@@ -190,6 +195,8 @@ h2.title {
 .precios,
 .promociones {
     padding: 20px;
+    z-index: 1;
+    position: relative;
 }
 
 .precios .table .item {
@@ -341,7 +348,6 @@ h2.title {
     left: -53px;
     width: 260px;
     top: -50px;
-    z-index: -1;
 }
 
 /* Footer */
