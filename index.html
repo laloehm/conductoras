@@ -11,6 +11,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
 
     <title>Conductoras</title>
 </head>
@@ -33,11 +34,13 @@
             <div class="redes">
                 <img src="images/Dots-3.png" class="img-fluid" alt="">
                 <div class="icons">
-                    <a href="tel:5576915963" target="_blank"><img src="images/Tel.png" class="icon" alt=""> 55 7691 5963</a>
-                    <a href="https://api.whatsapp.com/send?phone=5215554322040" target="_blank"><img src="images/whats.png" class="icon" alt=""> 55 5432 2040</a>
-                    <a href="https://twitter.com/Conductoras1" target="_blank"><img src="images/Twitter.png" class="icon" alt=""> @Conductoras1</a>
-                    <a href="mailto:redconductoras@gmail.com" target="_blank"><img src="images/Correo.png" class="icon" alt=""> redconductoras@gmail.com</a>
-                    <a href="https://goo.gl/maps/xuTAEPSuWKuKVtMx7" target="_blank"><img src="images/Maps.png" class="icon" alt=""><span>Tomás Alva Edison num 173
+                    <a href="tel:5576915963" target="_blank" class="wow fadeIn" data-wow-duration=".5s">
+                        <img src="images/Tel.png" class="icon" alt=""> 55 7691 5963
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=5215554322040" class="wow fadeIn" target="_blank" wow-data-duration=".5s" data-wow-delay="500ms"><img src="images/whats.png" class="icon" alt=""> 55 5432 2040</a>
+                    <a href="https://twitter.com/Conductoras1" class="wow fadeIn" target="_blank" data-wow-delay="1200ms"><img src="images/Twitter.png" class="icon" alt=""> @Conductoras1</a>
+                    <a href="mailto:redconductoras@gmail.com" class="wow fadeIn" data-wow-delay="1400ms" target="_blank"><img src="images/Correo.png" class="icon" alt=""> redconductoras@gmail.com</a>
+                    <a href="https://goo.gl/maps/xuTAEPSuWKuKVtMx7" class="wow fadeIn" data-wow-delay="1600ms" target="_blank"><img src="images/Maps.png" class="icon" alt=""><span>Tomás Alva Edison num 173
                             Col. San Rafael, Alc. Cuauhtémoc, Ciudad de México</span></a>
                 </div>
                 <img src="images/Redes.png" class="img-fluid dona" alt="">
@@ -201,6 +204,12 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+
 </body>
 
 </html>
