@@ -349,3 +349,9 @@ footer img.logo-footer {
     margin: 40px auto 30px;
     width: 200px;
 }
+
+footer img.dots {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
