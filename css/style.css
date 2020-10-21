@@ -185,10 +185,16 @@ body {
     font-size: 20px;
 }
 
-.servicios .restricciones p {
+.servicios .restricciones p, .servicios .restricciones p span {
     margin: 0;
     font-size: 12px;
     padding: 0 10px;
+}
+
+.servicios .restricciones p span{
+ font-family: 'NexaHeavy', serif;
+    padding-left: 0;
+    color: #4e0070;   
 }
 
 /* Precios */
@@ -201,7 +207,7 @@ body {
 
 .precios .table .item {
     display: grid;
-    grid-template-columns: 6fr 2fr 3fr;
+    grid-template-columns: 6fr 3fr 3fr;
     border-bottom: #fff537 1px solid;
 }
 
@@ -248,6 +254,27 @@ body {
 .precios .table .item p:nth-of-type(3) {
     padding: 8px 0;
 }
+
+.precios .table select{
+    font-size: 10px;
+    text-align-last: center;
+    width: 90%;
+}
+
+.precios p.incluyen{
+    font-family: 'NexaBlack', serif;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+.precios ul{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.precios ul li{
+    font-size: 12px;
+} 
 
 /* Promociones */
 .promociones .header {
