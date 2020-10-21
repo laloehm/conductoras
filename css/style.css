@@ -199,7 +199,7 @@ body {
 
 /* Precios */
 .precios,
-.promociones {
+.promociones, .conductoras {
     padding: 20px;
     z-index: 1;
     position: relative;
@@ -288,24 +288,28 @@ body {
 } 
 
 /* Promociones */
-.promociones .header {
+.promociones .header, 
+.conductoras .header {
     height: 108px;
     position: relative;
 }
 
-.promociones .header h2 {
+.promociones .header h2, 
+.conductoras .header h2 {
     margin: 0;
     background: #4e006f;
     padding: 10px;
     z-index: 1;
 }
 
-.promociones .header img {
+.promociones .header img, 
+.conductoras .header img {
     position: absolute;
     /* background: #4e006f; */
 }
 
-.promociones .header .icon {
+.promociones .header .icon,
+.conductoras .header .icon {
     right: 5px;
     width: 70px;
     bottom: -35px;
@@ -313,11 +317,14 @@ body {
 }
 
 .promociones h2,
-.promociones .content span {
+.promociones .content span,
+.conductoras h2,
+.conductoras .content span {
     color: #fff537;
 }
 
-.promociones .content {
+.promociones .content,
+.conductoras .content {
     background: #4e006f;
     padding: 0 10px 10px;
     border-radius: 15px;
@@ -328,17 +335,20 @@ body {
     overflow-x: hidden;
 }
 
-.promociones .content p {
+.promociones .content p,
+.conductoras .content p {
     color: #ffffff;
 }
 
-.promociones .content span.bold {
+.promociones .content span.bold,
+.conductoras .content span.bold {
     font-family: 'NexaBlack', serif;
     font-size: 16px;
     margin-bottom: 10px !important;
 }
 
-.promociones .item {
+.promociones .item,
+.conductoras .item {
     border: 1px solid #fff537;
     border-radius: 15px;
     padding: 10px;
