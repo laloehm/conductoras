@@ -93,22 +93,39 @@ avanced.on('change', function () {
 reforced.on('change', function () {
     // console.log(basic.val())
     switch (reforced.val()) {
+         case '2 Hrs.':
+            pricereforced.text(`$${(2 * 379)} MXN`);
+            break;
+         case '4 Hrs.':
+            pricereforced.text(`$${(4 * 379)} MXN`);
+            break;
         case '6 Hrs.':
-            pricereforced.text(`$${(6 * 280)} MXN`);
+            pricereforced.text(`$${(6 * 379)} MXN`);
             break;
         
         case '8 Hrs.':
-            pricereforced.text(`$${(8 * 280)} MXN`);
+            pricereforced.text(`$${(8 * 379)} MXN`);
             break;
         
         case '10 Hrs.':
-            pricereforced.text(`$${(10 * 280)} MXN`);
+            pricereforced.text(`$${(10 * 379)} MXN`);
             break;
         
         case '12 Hrs.':
-            pricereforced.text(`$${(12 * 280)} MXN`);
+            pricereforced.text(`$${(12 * 379)} MXN`);
             break;
-        
+         case '14 Hrs.':
+            pricereforced.text(`$${(14 * 379)} MXN`);
+            break;
+         case '16 Hrs.':
+            pricereforced.text(`$${(16 * 379)} MXN`);
+            break;
+         case '18 Hrs.':
+            pricereforced.text(`$${(18 * 379)} MXN`);
+            break;
+         case '20 Hrs.':
+            pricereforced.text(`$${(20 * 379)} MXN`);
+            break;        
         default:
             break;
     }
